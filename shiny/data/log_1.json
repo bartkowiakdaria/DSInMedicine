@@ -1,0 +1,49 @@
+{
+  "@context": "http://www.w3.org/ns/prov#",
+  "@id": "urn:uuid:93db1fbd-384d-4017-9598-fde149265c43",
+  "@type": "Activity",
+  "label": "Processing sample 1",
+  "startTime": "2026-04-26T08:36:37Z",
+  "endTime": "2026-04-26T08:52:36Z",
+  "executionNode": "charizard",
+  "sourceDirectory": "/data/input/",
+  "destinationDirectory": "/data/output/run_1",
+  "wasAssociatedWith": [
+    {
+      "@type": "SoftwareAgent",
+      "label": "seqfu",
+      "version": "1.22.3"
+    },
+    {
+      "@type": "SoftwareAgent",
+      "label": "sha256sum",
+      "version": "8.32"
+    },
+    {
+      "@type": "SoftwareAgent",
+      "label": "Nextflow pipeline"
+    },
+    {
+      "@type": "Person",
+      "label": "user: user_b"
+    }
+  ],
+  "generated": [
+    {
+      "@type": "Entity",
+      "label": "SHA256",
+      "value": "checksum coincide"
+    },
+    {
+      "@type": "Entity",
+      "label": "Seqfu",
+      "value": "OK"
+    },
+    {
+      "@type": "Entity",
+      "label": "FASTQ Files",
+      "totalSizeBytes": "4209595661",
+      "fileCount": "2"
+    }
+  ]
+}
